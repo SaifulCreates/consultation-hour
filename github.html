@@ -18,38 +18,52 @@
 		.heading {
 			font-family: "Open Sans", Helvetica, Arial, sans-serif;
 		}
+
+		.profile-container {
+			display: flex;
+			align-items: flex-start; /* top aligned */
+			gap: 16px;              /* space between image and text */
+		}
+
+		.profile-container img {
+			flex-shrink: 0;         /* image won’t squish */
+		}
 	</style>
 </head>
 <body>
-	<img src="img_avatar.jpg" alt="Md. Saiful Islam" width="120">
+	<div class="profile-container">
+		<img src="img_avatar.jpg" alt="Md. Saiful Islam" width="120">
 
-	<br>
-	Md. Saiful Islam <br>
-	Senior Lecturer <br>
-	Department of Computer Science and Engineering <br>
-	BRAC University <br>
-	KHA 224, Progati Sarani, Merul Badda, Dhaka <br>
-	Office: 4g12 <br>
-	Email: md.saiful.islam@bracu.ac.bd <br>
-	<a href="https://www.youtube.com/@saifulcreates" target="_blank">
-		https://www.youtube.com/@saifulcreates
-	</a>
+		<div>
+			Md. Saiful Islam <br>
+			Senior Lecturer <br>
+			Department of Computer Science and Engineering <br>
+			BRAC University <br>
+			KHA 224, Progati Sarani, Merul Badda, Dhaka <br>
+			Office: 4g12 <br>
+			Email: md.saiful.islam@bracu.ac.bd <br>
+			<a href="https://www.youtube.com/@saifulcreates" target="_blank">
+				https://www.youtube.com/@saifulcreates
+			</a>
+		</div>
+	</div>
 	
 	<br><br>
 
-<h2 class="heading">
-	Spring 2026 Consultation Schedule - CSE110
-</h2>
-
-<ul> 
-	<li>Sun – 2:00 PM to 3:30 PM</li>
-	<li>Mon – 2:00 PM to 3:30 PM</li>
-	<li>Tue – 2:00 PM to 3:30 PM</li>
-	<li>Wed – 2:00 PM to 3:30 PM</li>
-</ul>
+	<h2 class="heading">
+		Spring 2026 Consultation Schedule - CSE110
+	</h2>
+	
+	<ul> 
+		<li>Sun – 2:00 PM to 3:30 PM</li>
+		<li>Mon – 2:00 PM to 3:30 PM</li>
+		<li>Tue – 2:00 PM to 3:30 PM</li>
+		<li>Wed – 2:00 PM to 3:30 PM</li>
+	</ul>
 
 </body>
 </html>
+
 
 
 
