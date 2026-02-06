@@ -1,65 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Consultation Schedule</title>
+    <meta charset="UTF-8">
+    <title>Profile</title>
 
-	<!-- Load Open Sans -->
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        .profile-container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            max-width: 700px;
+            padding: 16px;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: #666;
+        }
 
-	<style>
-		body {
-			color: rgb(102, 102, 102);
-			font-size: 15px;
-			font-family: Verdana, Arial, Helvetica, sans-serif;
-			padding: 1rem;
-		}
+        .profile-container img {
+            width: 144px;
+            margin-left: 20px;
+        }
 
-		.heading {
-			font-family: "Open Sans", Helvetica, Arial, sans-serif;
-		}
-
-		.profile-container {
-			display: flex;
-			align-items: flex-start; /* top aligned */
-			gap: 16px;              /* space between image and text */
-		}
-
-		.profile-container img {
-			flex-shrink: 0;         /* image won’t squish */
-		}
-	</style>
+        .profile-details {
+            line-height: 1.6;
+        }
+    </style>
 </head>
 <body>
-	<div class="profile-container">
-		<img src="img_avatar.jpg" alt="Md. Saiful Islam" width="144">
 
-		<div>
-			Md. Saiful Islam <br>
-			Senior Lecturer <br>
-			Department of Computer Science and Engineering <br>
-			BRAC University <br>
-			KHA 224, Progati Sarani, Merul Badda, Dhaka <br><br>
-			Office: 4g12 <br>
-			Email: md.saiful.islam@bracu.ac.bd <br>
-			<a href="https://www.youtube.com/@saifulcreates" target="_blank">
-				https://www.youtube.com/@saifulcreates
-			</a>
-		</div>
-	</div>
-	
-	<br><br>
+    <div class="profile-container">
+        <div class="profile-details">
+            Md. Saiful Islam <br>
+            Senior Lecturer <br>
+            Department of Computer Science and Engineering <br>
+            BRAC University <br>
+            KHA 224, Progati Sarani, Merul Badda, Dhaka <br><br>
+            Office: 4g12 <br>
+            Email: md.saiful.islam@bracu.ac.bd <br>
+            <a href="https://www.youtube.com/@saifulcreates" target="_blank">
+                https://www.youtube.com/@saifulcreates
+            </a>
+        </div>
 
-	<h2 class="heading">
-		Spring 2026 Consultation Schedule - CSE110
-	</h2>
-	
-	<ul> 
-		<li>Sun – 2:00 PM to 3:30 PM</li>
-		<li>Mon – 2:00 PM to 3:30 PM</li>
-		<li>Tue – 2:00 PM to 3:30 PM</li>
-		<li>Wed – 2:00 PM to 3:30 PM</li>
-	</ul>
+        <img src="img_avatar.jpg" alt="Md. Saiful Islam">
+    </div>
 
 </body>
 </html>
