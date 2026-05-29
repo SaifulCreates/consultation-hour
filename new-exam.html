@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Academic Calendar Table</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 8px;
+      background: #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border-top: 5px solid #8b1e1e;
+      font-size: 16px;
+      color: #222;
+    }
+
+    th,
+    td {
+      border: 1px solid #cfcfcf;
+      padding: 14px 12px;
+      vertical-align: top;
+      text-align: left;
+      line-height: 1.5;
+    }
+
+    th {
+      background: #f5f5f5;
+      font-weight: bold;
+    }
+
+    .season {
+      font-weight: bold;
+      white-space: nowrap;
+      width: 120px;
+    }
+  </style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th></th>
+    <th>Quarter Starts</th>
+    <th>Booth Holiday</th>
+    <th>Exam Week</th>
+    <th>Quarter Ends</th>
+  </tr>
+
+  <tr>
+    <td class="season">Autumn</td>
+    <td>Monday,<br>September 29</td>
+    <td>
+      Monday, November 24-Saturday,<br>
+      November 29 (Thanksgiving class break week)
+    </td>
+    <td>December<br>8-13</td>
+    <td>Saturday,<br>December 13</td>
+  </tr>
+
+  <tr>
+    <td class="season">Winter</td>
+    <td>Monday, January 5</td>
+    <td>
+      Monday, January 19 Martin Luther King Day<br>
+      (No classes)
+    </td>
+    <td>March 9-14</td>
+    <td>Saturday, March 14</td>
+  </tr>
+
+  <tr>
+    <td class="season">Spring</td>
+    <td>Monday, March 23</td>
+    <td>Monday, May 25 Memorial Day Holiday</td>
+    <td>May 26-30</td>
+    <td>
+      Saturday, June 18
+    </td>
+  </tr>
+
+  <tr>
+    <td class="season">Summer</td>
+    <td>Monday, June 15</td>
+    <td>
+      Friday, June 19 Juneteenth Holiday*<br><br>
+
+      Friday-Saturday, July 4-5 Independence Day<br>
+      Holiday (No evening/weekend classes)*<br><br>
+
+      *No Friday classes summer 2026.<br>
+      Saturdays will have 8 sessions.
+    </td>
+    <td>August 17-22</td>
+    <td>Saturday, August 22</td>
+  </tr>
+</table>
+
+</body>
+</html>
